@@ -1,0 +1,163 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 1fr 30px;
+    font-family: sans-serif;
+    background: #202022;
+    background: linear-gradient(90deg, rgba(32,32,34,1) 200px, rgba(9,9,121,1) 70%, rgba(32,32,34,1) 100%);
+}
+
+nav {
+    grid-column: 1;
+    grid-row: 2;
+    background: #202022;
+    font-weight: bold;
+    font-size: 150%;
+    height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+nav ul > li {
+    padding: 5px;
+}
+
+nav ul > li > a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+nav ul > li > a:hover {
+    color: white;
+}
+
+main {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1000px 1fr;
+    grid-template-rows: 1fr;
+    background: #dddddd;
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+}
+
+main .leftalign {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+main .rightalign {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+main a {
+    color: #2f4e6f;
+    text-decoration: none;
+    
+}
+
+main a:hover {
+    color: #98b1c4;
+}
+
+main p {
+    font-size: 16px;
+    color: #000000;
+}
+
+main h2 {
+    margin-top: 70px;
+    font-size: 200%;
+    font-weight: normal;
+    color: #2f4e6f;
+}
+
+main ul {
+    list-style-type: "\25b6";
+    padding-left: 40px;
+}
+
+main ul > li {
+    padding-left: 5px;
+}
+
+main address {
+    font-style: normal;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    background: #cccccc;
+}
+
+header {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background: #202022;
+    background: linear-gradient(90deg, rgba(32,32,34,1) 200px, rgba(47,48,111,1) 70%, rgba(32,32,34,1) 100%);
+    font-size: 300%;
+    color: white;
+    line-height: 150px;
+    padding-left: 50px;
+}
+
+header .my-name {
+    float: left;
+    width: 33.33%;
+    text-align: left;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header .page-title {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    background: #202022;
+    background: linear-gradient(90deg, rgba(32,32,34,1) 200px, rgba(47,48,111,1) 70%, rgba(32,32,34,1) 100%);
+    padding-left: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+footer a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+main .date {
+    position: relative;
+    left: 800px;
+    top: 16px;
+}
+
+main ul .date {
+    position: relative;
+    left: 760px;
+    top: 16px;
+}
