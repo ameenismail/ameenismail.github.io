@@ -85,6 +85,13 @@ main h2 {
     color: #2f4e6f;
 }
 
+main h4 {
+    margin-top: 35px;
+    font-size: 150%;
+    font-weight: normal;
+    color: #2f4e6f;
+}
+
 main ul {
     list-style-type: "\25b6";
     padding-left: 40px;
