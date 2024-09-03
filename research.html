@@ -19,8 +19,15 @@
         </nav>
         <main>
         <div class="leftalign">
-            <p>Here are some brief descriptions of a few things I've worked on: <a href="#hierarchy">the hierarchy problem</a>, <a href="#DM">dark matter</a>, <a href="#dilatons">conformal sectors</a>, and <a href="#extensions">extended Higgs sectors</a>.</p>
+            <p>Here are some brief descriptions of a few things I've worked on: <a href="#confinement">confinement</a>, <a href="#hierarchy">the hierarchy problem</a>, <a href="#DM">dark matter</a>, <a href="#dilatons">conformal sectors</a>, and <a href="#extensions">extended Higgs sectors</a>.</p>
             <p>For a more complete list, check out my <a href="CV.html">CV</a> and <a href="https://inspirehep.net/authors/1797161">publications</a>.</p>
+            <section id="confinement">
+                <h2>confinement</h2>
+                <p> Most recently I've been trying to shed light on the phenomenon of confinement by studying observables called energy correlators, which have attracted a lot of attention lately. These observables are correlation functions of energy flow operators, which are essentially measuring the energy deposited in idealized calorimeters in a collider experiment. One can actually extract these correlators from real LHC data, and they provide a beautiful visualization of the confinement transition in QCD. Yet reproducing the features associated with confinement from first principles, even at a qualitative level, remains elusive.</p>
+                <p>In <a href="https://arxiv.org/abs/2403.12123">Holographic Energy Correlators for Confining Theories</a>, we approached this problem through the lens of AdS/CFT. We considered the simplest possible holographic model of confinement, which is just AdS cut off with a brane. We showed how to calculate the two-point energy correlator in this theory, and we observed a clear confinement transition in our results. This was the first calculation of an energy correlator in a confining holographic model.</p>
+                <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2403.12123">2403.12123</a>
+                </p>
+            </section>
             <section id="hierarchy">
                 <h2>hierarchy problem</h2>
                 <p> I'm interested in building new approaches to the Higgs hierarchy or naturalness problem. In <a href="https://arxiv.org/abs/2007.14396">Crunching Dilaton, Hidden Naturalness (2007.14396)</a>, we introduced a new way to solve the hierarchy problem. The idea is to have a multiverse where some scanning sector sets the value of the Higgs mass in each causal patch. We then introduce some new dynamics so that all patches except those where the Higgs mass lies in a finite range undergo a cosmological crunch in the early universe. The only patches that survive through inflation to the present day are those where the Higgs mass is small, generating an apparent fine-tuning.</p>
@@ -62,8 +69,11 @@
 
         <div class="rightalign">
             <br><br>
+            <img id="energy-correlator" src="files/research_correlator.jpg" width="90%">
+            <div class="caption">The two-point energy correlator calculated in a holographic model of confinement, from 2403.12123. We observe a transition between the confined and deconfined regimes.</div>
+            <br><br>
             <img id="crunching-sketch" src="files/research_crunching.jpg" width="90%">
-            <div class="caption">A sketch of our scalar potential from 2007.14396. When the Higgs vev gets large enough, the metastable minimum disappears and the universe crunches..</div>
+            <div class="caption">A sketch of our scalar potential from 2007.14396. When the Higgs vev gets large enough, the metastable minimum disappears and the universe crunches.</div>
             <br><br>
             <img id="spectral-density" src="files/research_continuum.jpg" width="90%">
             <div class="caption">An example spectral density for a continuum state from 2210.16326. For an ordinary particle this would be a delta function centered at its mass. The nontrivial spectral density leads to unique kinematics.</div>
@@ -73,6 +83,6 @@
         </div>
 
         </main>
-        <footer>Ameen Ismail | 428 Physical Sciences Building, Cornell University | <script type="text/javascript">putAddress()</script> | <a href="https://inspirehep.net/authors/1797161">INSPIRE</a></footer>
+        <footer>Ameen Ismail | 355 Michelson Center for Physics, University of Chicago | <script type="text/javascript">putAddress()</script> | <a href="https://inspirehep.net/authors/1797161">INSPIRE</a></footer>
     </body>
 </html>
