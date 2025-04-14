@@ -10,7 +10,7 @@
         <nav class="sidebar">
             <ul>
                 <li><a href="index.html">home</a></li>
-                <li><a href="CV.html">CV</a></li>
+                <li><a href="files/cv.pdf">CV (PDF)</a></li>
                 <li><a href="research.html">research</a></li>
                 <li><a href="talks.html">talks</a></li>
                 <li><a href="teaching.html">teaching</a></li>
@@ -18,17 +18,30 @@
             </ul>
         </nav>
         <main>
-        <div class="leftalign">
-            <p>Here are some brief descriptions of a few things I've worked on: <a href="#confinement">confinement</a>, <a href="#hierarchy">the hierarchy problem</a>, <a href="#DM">dark matter</a>, <a href="#dilatons">conformal sectors</a>, and <a href="#extensions">extended Higgs sectors</a>.</p>
-            <p>For a more complete list, check out my <a href="CV.html">CV</a> and <a href="https://inspirehep.net/authors/1797161">publications</a>.</p>
-            <section id="confinement">
+
+	<section>
+            <div class="leftalign">
+                <p>Here are some brief descriptions of a few things I've worked on: <a href="#confinement">confinement</a>, <a href="#hierarchy">the hierarchy problem</a>, <a href="#DM">dark matter</a>, <a href="#dilatons">conformal sectors</a>, and <a href="#extensions">extended Higgs sectors</a>.</p>
+                <p>For a more complete list, check out my <a href="files/cv.pdf">CV (PDF)</a> and <a href="https://inspirehep.net/authors/1797161">publications</a>.</p>
+            </div>
+        </section>
+
+        <section id="confinement">
+	    <div class="leftalign">
                 <h2>confinement</h2>
                 <p> Most recently I've been trying to shed light on the phenomenon of confinement by studying observables called energy correlators, which have attracted a lot of attention lately. These observables are correlation functions of energy flow operators, which are essentially measuring the energy deposited in idealized calorimeters in a collider experiment. One can actually extract these correlators from real LHC data, and they provide a beautiful visualization of the confinement transition in QCD. Yet reproducing the features associated with confinement from first principles, even at a qualitative level, remains elusive.</p>
                 <p>In <a href="https://arxiv.org/abs/2403.12123">Holographic Energy Correlators for Confining Theories</a>, we approached this problem through the lens of AdS/CFT. We considered the simplest possible holographic model of confinement, which is just AdS cut off with a brane. We showed how to calculate the two-point energy correlator in this theory, and we observed a clear confinement transition in our results. This was the first calculation of an energy correlator in a confining holographic model.</p>
                 <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2403.12123">2403.12123</a>
                 </p>
-            </section>
-            <section id="hierarchy">
+	    </div>
+            <div class="rightalign">
+                <img id="energy-correlator" src="files/research_correlator.jpg">
+                <div class="caption">The two-point energy correlator calculated in a holographic model of confinement, from 2403.12123. We observe a transition between the confined and deconfined regimes.</div>
+            </div>
+	</section>
+
+        <section id="hierarchy">
+	    <div class="leftalign">
                 <h2>hierarchy problem</h2>
                 <p> I'm interested in building new approaches to the Higgs hierarchy or naturalness problem. In <a href="https://arxiv.org/abs/2007.14396">Crunching Dilaton, Hidden Naturalness (2007.14396)</a>, we introduced a new way to solve the hierarchy problem. The idea is to have a multiverse where some scanning sector sets the value of the Higgs mass in each causal patch. We then introduce some new dynamics so that all patches except those where the Higgs mass lies in a finite range undergo a cosmological crunch in the early universe. The only patches that survive through inflation to the present day are those where the Higgs mass is small, generating an apparent fine-tuning.</p>
                 <p>The main experimental signature of our model is a light new scalar, with a mass around a GeV or so, that mixes weakly with the Higgs. Most of the parameter space can be probed by experiments within the next decade. I wrote a little piece in the <a href="https://arxiv.org/abs/2203.05090">Forward Physics Facility (FPF) white paper (2203.05090)</a> about the opportunity to look for this new scalar at the FPF.</p>
@@ -36,8 +49,15 @@
                 <p>
                 <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2007.14396">2007.14396</a>, <a href="https://arxiv.org/abs/2203.05090">2203.05090</a>, <a href="https://arxiv.org/abs/2210.02456">2210.02456</a>.
                 </p>
-            </section>
-            <section id="DM">
+	    </div>
+            <div class="rightalign">
+                <img id="crunching-sketch" src="files/research_crunching.jpg">
+                <div class="caption">A sketch of our scalar potential from 2007.14396. When the Higgs vev gets large enough, the metastable minimum disappears and the universe crunches.</div>
+            </div>
+	</section>
+
+        <section id="DM">
+	    <div class="leftalign">
                 <h2>dark matter</h2>
                 <p>I am also interested in building models of dark matter and exploring their phenomenology. In <a href="https://arxiv.org/abs/2210.16326">The Continuum Dark Matter Zoo (2210.16326)</a> we described a class of dark matter models where the dark matter is a continuum state, rather than an ordinary particle. (This is somewhat analogous to the distinction between continuum and bound states in ordinary nonrelativistic quantum mechanics.) This paper built on some previous work on continuum dark matter, see <a href="https://arxiv.org/abs/2105.07035">2105.07035</a> and <a href="https://arxiv.org/abs/2105.14023">2105.14023</a>. The basic idea is that continuum states exhibit very unique kinematics, which leads to an enormous suppression of direct detection bounds. Thus, simple WIMP-like models of dark matter that would be ruled out for ordinary particles are totally allowed if the dark matter is a continuum state.</p>
                 <p>In <a href="https://arxiv.org/abs/2306.06161">FIMPzilla dark matter and conformal sectors (2306.06161)</a> I turned my attention to ultraheavy dark matter. The main point was that one can minimally extend composite Higgs models by adding an elementary scalar, which is naturally ultraheavy and feebly-coupled. This scalar can be a good dark matter candidate produced by ultraviolet freeze-in. The main experimental constraints currently come from bounds on the tensor-to-scalar ratio measured in the CMB power spectrum, but I am interested in exploring other avenues for detection.</p>
@@ -46,8 +66,15 @@
                 <p>
                 <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2210.16326">2210.16326</a>, <a href="https://arxiv.org/abs/2306.06161">2306.06161</a>, <a href="https://arxiv.org/abs/2308.16219">2308.16219</a>, <a href="https://arxiv.org/abs/2402.08716">2402.08716</a>.
                 </p>
-            </section>
-            <section id="dilatons">
+	    </div>
+            <div class="rightalign">
+                <img id="spectral-density" src="files/research_continuum.jpg">
+                <div class="caption">An example spectral density for a continuum state from 2210.16326. For an ordinary particle this would be a delta function centered at its mass. The nontrivial spectral density leads to unique kinematics.</div>
+            </div>
+	</section>
+
+        <section id="dilatons">
+	    <div class="leftalign">
                 <h2>dilatons and CFTs</h2>
                 <p>Theories with conformal sectors in which scale invariance is spontaneously broken show up in a lot of different model-building contexts. Actually, I've already mentioned several examples above. For instance, a spontaneously broken conformal sector is a key part of the <a href="https://arxiv.org/abs/2007.14396">Crunching Dilaton, Hidden Naturalness (2007.14396)</a> paper discussed above. Spontaneously broken conformal sectors also provide a concrete way to realize the continuum states which we studied in <a href="https://arxiv.org/abs/2210.16326">The Continuum Dark Matter Zoo (2210.16326)</a>.</p>
                 <p>These models generally feature a new particle called a dilaton, which is the Goldstone boson of spontaneously broken scale invariance. In <a href="https://arxiv.org/abs/2205.15324">a-Anomalous Interactions of the Holographic Dilaton (2205.15324)</a>, we explored the low-energy effective action for the dilaton. There's a particular term in the action whose coefficient is fixed by an anomaly in the CFT. This can have important consequences for phenomenology and cosmology!</p>
@@ -55,8 +82,15 @@
                 <p>
                 <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2205.15324">2205.15324</a>, <a href="2301.10247">2301.10247</a>.
                 </p>
-            </section>
-            <section id="extensions">
+	    </div>
+            <div class="rightalign">
+                <img id="gravitational-waves" src="files/research_stabilization.jpg">
+                <div class="caption">Predictions for stochastic gravitational wave spectra from the stabilization mechanism we introduced in 2301.10247 (red, green and blue curves), along with projected sensitivities for future experiments.</div>
+            </div>
+	</section>
+
+        <section id="extensions">
+	    <div class="leftalign">
                 <h2>extended Higgs sectors</h2>
                 <p>Starting the summer after undergrad and continuing into grad school, I worked on the Georgi-Machacek model. In this model, the Standard Model Higgs sector is extended by two SU(2) triplets, in such a way that naturally preserves the rho-parameter (the W to Z boson mass ratio; equivalently, the electroweak T parameter) at tree level. Another interesting feature in this model is the existence of doubly charged Higgs bosons. More generally, it serves as a nice prototype for extensions of the Higgs sector containing SU(2) representation larger than doublets.</p>
                 <p>In <a href="https://arxiv.org/abs/2003.02272">Updated constraints on the Georgi-Machacek model from LHC Run 2 (2003.02272)</a>, we did an extensive analysis of the experimental constraints on this model from direct searches for new Higgs bosons, as well as from measurements of the observed 125 GeV Higgs. Some of the code I wrote was later integrated into the next release of the Georgi-Machacek model calculator, <a href="https://people.physics.carleton.ca/~logan/gmcalc/">GMCALC</a>. We also introduced a new benchmark for studying a particular region of the model's parameter space, the so-called "low-m<sub>5</sub>" region, in <a href="https://arxiv.org/abs/2003.05536">Benchmark for LHC searches for low-mass custodial fiveplet scalars in the Georgi-Machacek model (2003.05536)</a>.
@@ -64,23 +98,10 @@
                 <p>
                 <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2003.02272">2003.02272</a>, <a href="https://arxiv.org/abs/2003.05536">2003.05536</a>, <a href="https://arxiv.org/abs/2210.02456">2210.02456</a>.
                 </p>
-            </section>
-        </div>
-
-        <div class="rightalign">
-            <br><br>
-            <img id="energy-correlator" src="files/research_correlator.jpg" width="90%">
-            <div class="caption">The two-point energy correlator calculated in a holographic model of confinement, from 2403.12123. We observe a transition between the confined and deconfined regimes.</div>
-            <br><br>
-            <img id="crunching-sketch" src="files/research_crunching.jpg" width="90%">
-            <div class="caption">A sketch of our scalar potential from 2007.14396. When the Higgs vev gets large enough, the metastable minimum disappears and the universe crunches.</div>
-            <br><br>
-            <img id="spectral-density" src="files/research_continuum.jpg" width="90%">
-            <div class="caption">An example spectral density for a continuum state from 2210.16326. For an ordinary particle this would be a delta function centered at its mass. The nontrivial spectral density leads to unique kinematics.</div>
-            <br><br>
-            <img id="spectral-density" src="files/research_stabilization.jpg" width="90%">
-            <div class="caption">Predictions for stochastic gravitational wave spectra from the stabilization mechanism we introduced in 2301.10247 (red, green and blue curves), along with projected sensitivities for future experiments.</div>
-        </div>
+	    </div>
+            <div class="rightalign">
+            </div>
+	</section>
 
         </main>
         <footer>Ameen Ismail | 355 Michelson Center for Physics, University of Chicago | <script type="text/javascript">putAddress()</script> | <a href="https://inspirehep.net/authors/1797161">INSPIRE</a></footer>
