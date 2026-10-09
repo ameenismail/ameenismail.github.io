@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <script src="sidebar.js" defer></script>
+        <title>Ameen Ismail | Projects</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <button id="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+            <span class="page-title">projects</span>
+        </header>
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="research.html">physics</a></li>
+                <!---<li><a href="files/resume.pdf">r&eacute;sum&eacute; (PDF)</a></li>--->
+            </ul>
+        </nav>
+        <main>
+        <section>
+            <div class="singlecolumn">
+                <p>Here's some things I've done that have nothing to do with physics.</p>
+            </div>
+        </section>
+        <section><div class="heading"><h2>lake Ontario reverter</h2></div></section>
+        <section>
+            <div class="leftalign">
+                <p>I wrote a Firefox add-on to change "Lake America" back to "Lake Ontario" on Google Maps. If you're located in the US, American place names are displayed by default. This extension works by changing the geographic location setting to Canada, so that Canadian place names are displayed.</p>
+            <ul>
+                <li><a href="https://addons.mozilla.org/addon/lake-ontario-reverter/"><b>Firefox add-on page</b></a></li>
+                <li><a href="https://github.com/ameenismail/lake-ontario-reverter"><b>Source code on my GitHub</b></a></li>
+            </ul>
+            </div>
+        <div class="rightalign">
+            <img id="lake-ontario-photo" src="files/lake_ontario_extension.png">
+            <div id="caption">Screenshot of the add-on in action. Elbows up.</div>
+        </div>
+        </section>
+        <section><div class="heading"><h2>trivia</h2></div></section>
+        <section>
+            <div class="leftalign">
+            <h4>j-play</h4>
+    		<p>I really like the game show Jeopardy!, and I am a big fan of the <a href="https://chromewebstore.google.com/detail/j-play/cgaeacdlahcfkbhcabkgpahkccbfppbm?hl=en">j-play Chrome extension</a>, which allows you to play Jeopardy! games off of the <a href="https://www.j-archive.com/">j-archive</a>. I was disappointed that the extension was only available on Chrome, so I ported it to Firefox:</p>
+            <ul>
+                <li><a href="https://addons.mozilla.org/addon/j-play/"><b>Firefox add-on page</b></a></li>
+                <li><a href="https://github.com/ameenismail/j-play-ff"><b>Source code on my GitHub</b></a></li>
+            </ul>
+            <h4>trivia trainer</h4>
+                    <p>I also like <a href="http://www.trivia-trainer.com/">Trivia Trainer</a>, which allows you to go through old Jeopardy! questions by category. The website has no built-in support for keyboard shortcuts, so I wrote a userscript for this purpose. <a href="https://github.com/ameenismail/trivia-trainer-keyboard-shortcuts"><b>Here's the code on my GitHub</b></a>.</p>
+    
+                    <p>As I've written it you can show or hide the answer with the up arrow or the T key, and use the other arrow keys to click the "correct", "incorrect", and "don't know" buttons. But it's easy to customize it to use whatever keys you like.</p>
+<!----    
+<p>Also, if you're unfamiliar with <a href="https://en.wikipedia.org/wiki/Userscript">userscripts</a>, they are bits of code that modify a webpage. You'll need to install a browser extension such as Greasemonkey or Tampermonkey; then create a new userscript, copy and paste the code I linked above, and save it.</p> ---->
+            </div>
+        <div class="rightalign">
+            <img id="jeopardy-photo" src="files/ameen_jeopardy.jpg">
+            <div class="caption">Me on the Alex Trebek stage! I lost after wiping out on a Daily Double.</div>
+        </div>
+        </section>
+        <section><div class="heading"><h2>ear training</h2></div></section>
+        <section>
+            <div class="leftalign">
+                <p>I wrote a short Python script to help me with my ear training. <a href="https://github.com/ameenismail/simple-ear-training"><b>Here's the code on my GitHub</b></a>. Basically, it plays you some intervals and you try to guess what the intervals are.</p>
+
+                <p>I think it's pretty easy to use it by running it from the command line. You can easily customize it to use whatever intervals you like.</p>
+            </div>
+        </section>
+        </main>
+        <footer><span>Ameen Ismail | <span class="email">ai279</span><span class="antiemail">spamspamspam</span>@cornell.edu </span></footer>
+    </body>
+</html>

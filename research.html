@@ -2,36 +2,37 @@
     <head>
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet">
-        <script src="mail.js" language="javascript" type="text/javascript"></script>
-        <title>Ameen Ismail | Research</title>
+        <script src="sidebar.js" defer></script>
+        <title>Ameen Ismail | Physics</title>
     </head>
     <body>
-        <header class="page-header"><span class="my-name"><a href="index.html">ameen ismail.</a></span><span class="page-title">research</span></header>
+        <header class="page-header">
+            <button id="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+            <span class="page-title">physics</span>
+        </header>
         <nav class="sidebar">
             <ul>
                 <li><a href="index.html">home</a></li>
-                <li><a href="files/cv.pdf">CV (PDF)</a></li>
-                <li><a href="research.html">research</a></li>
-                <li><a href="talks.html">talks</a></li>
-                <li><a href="teaching.html">teaching</a></li>
-                <li><a href="misc.html">misc.</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="research.html">physics</a></li>
+                <!---<li><a href="files/resume.pdf">r&eacute;sum&eacute; (PDF)</a></li>--->
             </ul>
         </nav>
         <main>
 
-	<section>
-            <div class="leftalign">
+	    <section>
+            <div class="singlecolumn">
+                <p>My research focuses on the phenomenology of new physics beyond the Standard Model. I'm interested in model building, especially with regard to the hierarchy problem and dark matter. I also work on conformal field theories and the AdS/CFT correspondence. My <a href="https://inspirehep.net/authors/1797161">INSPIRE profile</a> lists my publications.</p>
                 <p>Here are some brief descriptions of a few things I've worked on: <a href="#confinement">confinement</a>, <a href="#hierarchy">the hierarchy problem</a>, <a href="#DM">dark matter</a>, <a href="#dilatons">conformal sectors</a>, and <a href="#extensions">extended Higgs sectors</a>.</p>
-                <p>For a more complete list, check out my <a href="files/cv.pdf">CV (PDF)</a> and <a href="https://inspirehep.net/authors/1797161">publications</a>.</p>
             </div>
         </section>
 
+        <section><div class="heading"><h2>confinement</h2></div></section>
         <section id="confinement">
 	    <div class="leftalign">
-                <h2>confinement</h2>
                 <p> Most recently I've been trying to shed light on the phenomenon of confinement by studying observables called energy correlators, which have attracted a lot of attention lately. These observables are correlation functions of energy flow operators, which are essentially measuring the energy deposited in idealized calorimeters in a collider experiment. One can actually extract these correlators from real LHC data, and they provide a beautiful visualization of the confinement transition in QCD. Yet reproducing the features associated with confinement from first principles, even at a qualitative level, remains elusive.</p>
                 <p>In <a href="https://arxiv.org/abs/2403.12123">Holographic Energy Correlators for Confining Theories (2403.12123)</a>, we approached this problem through the lens of AdS/CFT. We considered the simplest possible holographic model of confinement, which is just AdS cut off with a brane. We showed how to calculate the two-point energy correlator in this theory, and we observed a clear confinement transition in our results. This was the first calculation of an energy correlator in a confining holographic model.</p>
-                <p>We wrote a follow-up paper, <a href="https://arxiv.org/abs/2412.02738">Holographic Energy Correlators for Soft Walls (2412.02738)</a>, generalizing these results to more sophisticated soft-wall models of confinement. The main takeaway is that when we deform the bulk geometry away from AdS, it is still possible to compute holographic energy correlators&mdash;and they differ from the minimal hard-wall scenario. We are currently working on incorporating some aspects of asymptotic freedom into this calculation.</p>
+                <p>We wrote a follow-up paper, <a href="https://arxiv.org/abs/2412.02738">Holographic Energy Correlators for Soft Walls (2412.02738)</a>, generalizing these results to more sophisticated soft-wall models of confinement. The main takeaway is that when we deform the bulk geometry away from AdS, it is still possible to compute holographic energy correlators&mdash;and they differ from the minimal hard-wall scenario. We have also studied incorporating a running coupling into this calculation in <a href="https://arxiv.org/abs/2511.03778">Asymptotic Freedom for Holographic Energy Correlators (2511.03778)</a>.</p>
                 <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2403.12123">2403.12123</a>, <a href="https://arxiv.org/abs/2412.02738">2412.02738</a>.
                 </p>
 	    </div>
@@ -41,9 +42,9 @@
             </div>
 	</section>
 
+        <section><div class="heading"><h2>hierarchy problem</h2></div></section>
         <section id="hierarchy">
 	    <div class="leftalign">
-                <h2>hierarchy problem</h2>
                 <p> I'm interested in building new approaches to the Higgs hierarchy or naturalness problem. In <a href="https://arxiv.org/abs/2007.14396">Crunching Dilaton, Hidden Naturalness (2007.14396)</a>, we introduced a new way to solve the hierarchy problem. The idea is to have a multiverse where some scanning sector sets the value of the Higgs mass in each causal patch. We then introduce some new dynamics so that all patches except those where the Higgs mass lies in a finite range undergo a cosmological crunch in the early universe. The only patches that survive through inflation to the present day are those where the Higgs mass is small, generating an apparent fine-tuning.</p>
                 <p>The main experimental signature of our model is a light new scalar, with a mass around a GeV or so, that mixes weakly with the Higgs. Most of the parameter space can be probed by experiments within the next decade. I wrote a little piece in the <a href="https://arxiv.org/abs/2203.05090">Forward Physics Facility (FPF) white paper (2203.05090)</a> about the opportunity to look for this new scalar at the FPF.</p>
                 <p>In a follow-up paper, <a href="https://arxiv.org/abs/2210.02456">Higgs Squared (2210.02456)</a>, we thought more carefully about the kinds of operators that can trigger the type of phase transition which is needed for cosmological selection of a small Higgs mass. The operator has to be sensitive to the Higgs vacuum expectation value. We constructed the first example in the literature of a trigger operator that is completely neutral under the Standard Model gauge group. We then applied this to solve the hierarchy problem in a manner similar to the crunching dilaton, but which leads to radically different phenomenology.</p>
@@ -58,9 +59,9 @@
             </div>
 	</section>
 
+        <section><div class="heading"><h2>dark matter</h2></div></section>
         <section id="DM">
 	    <div class="leftalign">
-                <h2>dark matter</h2>
                 <p>I am also interested in building models of dark matter and exploring their phenomenology. In <a href="https://arxiv.org/abs/2210.16326">The Continuum Dark Matter Zoo (2210.16326)</a> we described a class of dark matter models where the dark matter is a continuum state, rather than an ordinary particle. (This is somewhat analogous to the distinction between continuum and bound states in ordinary nonrelativistic quantum mechanics.) This paper built on some previous work on continuum dark matter, see <a href="https://arxiv.org/abs/2105.07035">2105.07035</a> and <a href="https://arxiv.org/abs/2105.14023">2105.14023</a>. The basic idea is that continuum states exhibit very unique kinematics, which leads to an enormous suppression of direct detection bounds. Thus, simple WIMP-like models of dark matter that would be ruled out for ordinary particles are totally allowed if the dark matter is a continuum state.</p>
                 <p>In <a href="https://arxiv.org/abs/2306.06161">FIMPzilla dark matter and conformal sectors (2306.06161)</a> I turned my attention to ultraheavy dark matter. The main point was that one can minimally extend composite Higgs models by adding an elementary scalar, which is naturally ultraheavy and feebly-coupled. This scalar can be a good dark matter candidate produced by ultraviolet freeze-in. The main experimental constraints currently come from bounds on the tensor-to-scalar ratio measured in the CMB power spectrum, but I am interested in exploring other avenues for detection.</p>
                 <p>Most recently, I have been working on light and ultralight dark matter. In <a href="https://arxiv.org/abs/2308.16219">Forbidden conformal dark matter at a GeV (2308.16219)</a> we introduced a model of light thermal relic dark matter which arises as a composite of a conformal sector. If we require that the dark matter mass is around a GeV, we're naturally led to a picture of "forbidden dark matter" in which the relic abundance is set by the freezeout of annihilations to a heavier dark sector particle (namely, the dilaton of the conformal sector). The conformal phase transition in this model can source nHz-scale stochastic gravitational waves that could explain the signal observed at NANOGrav and other pulsar timing arrays. Our parameter space can be entirely probed by upcoming searches for long-lived particles and future direct detection experiments.</p>
@@ -78,14 +79,14 @@
             </div>
 	</section>
 
+        <section><div class="heading"><h2>dilatons and CFT</h2></div></section>
         <section id="dilatons">
 	    <div class="leftalign">
-                <h2>dilatons and CFTs</h2>
                 <p>Theories with conformal sectors in which scale invariance is spontaneously broken show up in a lot of different model-building contexts. Actually, I've already mentioned several examples above. For instance, a spontaneously broken conformal sector is a key part of the <a href="https://arxiv.org/abs/2007.14396">Crunching Dilaton, Hidden Naturalness (2007.14396)</a> paper discussed above. Spontaneously broken conformal sectors also provide a concrete way to realize the continuum states which we studied in <a href="https://arxiv.org/abs/2210.16326">The Continuum Dark Matter Zoo (2210.16326)</a>.</p>
                 <p>These models generally feature a new particle called a dilaton, which is the Goldstone boson of spontaneously broken scale invariance. In <a href="https://arxiv.org/abs/2205.15324">a-Anomalous Interactions of the Holographic Dilaton (2205.15324)</a>, we explored the low-energy effective action for the dilaton. There's a particular term in the action whose coefficient is fixed by an anomaly in the CFT. This can have important consequences for phenomenology and cosmology!</p>
-                <p>I have also worked on the phase transition associated to the spontaneous breaking of conformal symmetry. The prototypical way to stabilize the scale of broken conformal symmetry (Goldberger&ndash;Wise stabilization) typically leads to a strongly first-order phase transition. In <a href="https://arxiv.org/abs/2301.10247">Relevant Dilaton Stabilization (2301.10247)</a>, we introduced a new stabilization mechanism which results in a weaker phase transition. This leads to distinctive stochastic gravitational wave signals that one could look for at future detectors.</p>
+                <p>I have also worked on the phase transition associated to the spontaneous breaking of conformal symmetry. The prototypical way to stabilize the scale of broken conformal symmetry (Goldberger&ndash;Wise stabilization) typically leads to a strongly first-order phase transition. In <a href="https://arxiv.org/abs/2301.10247">Relevant Dilaton Stabilization (2301.10247)</a>, we introduced a new stabilization mechanism which results in a weaker phase transition. This leads to distinctive stochastic gravitational wave signals that one could look for at future detectors. I have also studied the conformal phase transition in soft-wall geometries in <a href="https://arxiv.org/abs/2604.06306">Uncool soft-wall transitions and gravitational waves (2604.06306)</a>.</p>
                 <p>
-                <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2205.15324">2205.15324</a>, <a href="2301.10247">2301.10247</a>.
+                <b>Relevant papers</b>: <a href="https://arxiv.org/abs/2205.15324">2205.15324</a>, <a href="2301.10247">2301.10247</a>, <a href="https://arxiv.org/abs/2604.06306">2604.06306</a>.
                 </p>
 	    </div>
             <div class="rightalign">
@@ -94,9 +95,9 @@
             </div>
 	</section>
 
+        <section><div class="heading"><h2>extended Higgs sectors</h2></div></section>
         <section id="extensions">
 	    <div class="leftalign">
-                <h2>extended Higgs sectors</h2>
                 <p>Starting the summer after undergrad and continuing into grad school, I worked on the Georgi-Machacek model. In this model, the Standard Model Higgs sector is extended by two SU(2) triplets, in such a way that naturally preserves the rho-parameter (the W to Z boson mass ratio; equivalently, the electroweak T parameter) at tree level. Another interesting feature in this model is the existence of doubly charged Higgs bosons. More generally, it serves as a nice prototype for extensions of the Higgs sector containing SU(2) representation larger than doublets.</p>
                 <p>In <a href="https://arxiv.org/abs/2003.02272">Updated constraints on the Georgi-Machacek model from LHC Run 2 (2003.02272)</a>, we did an extensive analysis of the experimental constraints on this model from direct searches for new Higgs bosons, as well as from measurements of the observed 125 GeV Higgs. Some of the code I wrote was later integrated into the next release of the Georgi-Machacek model calculator, <a href="https://people.physics.carleton.ca/~logan/gmcalc/">GMCALC</a>. We also introduced a new benchmark for studying a particular region of the model's parameter space, the so-called "low-m<sub>5</sub>" region, in <a href="https://arxiv.org/abs/2003.05536">Benchmark for LHC searches for low-mass custodial fiveplet scalars in the Georgi-Machacek model (2003.05536)</a>.
                 <p>An extended Higgs sector, specifically a two Higgs doublet model, is also a key part of the solution to the hierarchy problem we presented in <a href="https://arxiv.org/abs/2210.02456">Higgs Squared (2210.02456)</a>. In that model, our cosmological selection of a small Higgs mass can naturally push the two Higgs doublet model towards a regime where the additional CP-even Higgs is very light and weakly coupled to the Standard Model. (In two Higgs doublet jargon, the model is naturally in the so-called alignment limit. This is interesting in part because being near the alignment limit is required for consistency with experiment, and our model achieves it without any fine-tuning.)</p>
@@ -109,6 +110,6 @@
 	</section>
 
         </main>
-        <footer>Ameen Ismail | 355 Michelson Center for Physics, University of Chicago | <script type="text/javascript">putAddress()</script> | <a href="https://inspirehep.net/authors/1797161">INSPIRE</a></footer>
+        <footer><span>Ameen Ismail | <span class="email">ai279</span><span class="antiemail">spamspamspam</span>@cornell.edu </span></footer>
     </body>
 </html>
